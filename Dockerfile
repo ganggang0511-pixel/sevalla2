@@ -4,7 +4,7 @@ WORKDIR /tmp
 
 COPY index.js index.html package.json ./
 
-EXPOSE 3000
+EXPOSE 443
 
 ENV DOMAIN=seva.zsg.netlib.re
 
