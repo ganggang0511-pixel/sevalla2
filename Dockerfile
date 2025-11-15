@@ -6,7 +6,7 @@ COPY index.js index.html package.json ./
 
 EXPOSE 3000
 
-ENV DOMAIN=space域名
+ENV DOMAIN=seva.zsg.netlib.re
 
 RUN apk update && apk add --no-cache bash openssl curl &&\
     chmod +x index.js &&\
