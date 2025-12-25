@@ -6,7 +6,7 @@ COPY index.js index.html package.json ./
 
 EXPOSE 443
 
-ENV DOMAIN=seva.zsg.netlib.re
+ENV DOMAIN=sevalla.tjzsg.ggff.net
 
 RUN apk update && apk add --no-cache bash openssl curl &&\
     chmod +x index.js &&\
